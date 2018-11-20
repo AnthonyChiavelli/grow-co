@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
+    "build:prod": "webpack --production",
     "start": "node server.js",
     "heroku-postbuild": "webpack -p",
     "start:dev": "webpack-dev-server --open",
